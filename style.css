@@ -1,0 +1,140 @@
+@import url('https://db.onlinewebfonts.com/c/83a7d547ff8d0e5cdecd27ac7c30bdc8?family=Boing');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	background-color: #0D0073;
+	color: white;
+	font-family: 'Boing';
+	scroll-behavior: smooth;
+	max-width: 100%;
+}
+
+.allNav{
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	margin: 14px;
+	padding: 10px;
+	margin-left: 80px;
+	margin-right: 80px;
+	font-size: 1.125rem;
+}
+.navItemZone{
+	display: flex;
+	justify-content: space-evenly;
+}
+.logo{
+	padding-top: 15px;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+ul{
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+}
+li{
+	padding: 30px;
+}
+.gift{
+	color: #FF006E;
+}
+.mark{
+	padding: 3px;
+	width: 388px;
+	margin-top: 50px;
+	margin-left: 1px;
+	background-color: white;
+	position: absolute;
+	writing-mode: horizontal-tb;
+	transform-origin: top;
+}
+.member{
+	background-color: #6054BA;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	height: 20px;
+	border-radius: 3rem;
+}
+.welcome{
+	margin-top: 100px;
+	font-size: 110px;
+	text-align: center;
+	justify-content: center;
+}
+.price{
+	margin-top: 30px;
+	font-size: 110px;
+	text-align: center;
+	justify-content: center;
+	font-size: 2rem;
+	font-weight: bold;
+	display: flex;
+}
+.choose{
+	margin-top: 30px;
+	text-align: center;
+	justify-content: center;
+	font-size: 1.3rem;
+	display: flex;
+}
+.choose a{
+	text-decoration: none;
+	color: white;
+	background:#FF3089;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 3rem;
+	box-shadow: 0 10px 50px rgba(0, 0, 0,0.3);
+}
+.nine{
+	font-size: 60px;
+}
+/*images positionning*/
+
+.img1{
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	margin-top: 60px;
+	left: -85px;
+}
+.img2{
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	margin-top: 60px;
+}
+.img3{
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	right: -90px;
+	margin-top: 30px;
+}
+.img4{
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	right: -50px;
+	margin-top: 60px;
+}
+
+.separator{
+	background-size: 100px 100px;
+	height: 95px;
+	width: 353px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+	background: url('img/separator-mobile.png') no-repeat;
+	border: 1px solid white;
+}
