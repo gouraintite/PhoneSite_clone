@@ -206,3 +206,107 @@ li{
 	font-size: 36px;
 	line-height: 42px;
 }
+.allTesti{
+	display: flex;
+	justify-content: space-around;
+}
+.testi{
+	background-color: #574D9F;
+	height: 463px;
+	width: 1024px;
+	border-radius: 2rem;
+	margin: 0 auto;
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: #574D9F;
+	position: absolute;
+	z-index: 1;
+}
+.salut{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: #574D9F;
+	position: relative;
+	width: 100vw;
+	z-index: 10;	
+	margin-top: -20px;
+}
+.TestiRight{
+	position: absolute;
+	height: 463px;
+	width: 165px;
+	margin-top: 30px;
+	background: linear-gradient(90deg, rgba(87, 77, 159, 0.1), rgba(13, 0, 115, 1.0));
+	right: 0;
+	z-index: 1000;
+}
+.stars{
+	text-align: left;
+}
+.Excellent{
+	position: relative;
+	text-align: center;
+	margin-top: 430px;
+	z-index: 200;
+}
+.TestiLeft{
+	position: absolute;
+	height: 463px;
+	width: 165px;
+	margin-top: 30px;
+	background: linear-gradient(90deg, rgba(13, 0, 115, 1.0), rgba(87, 77, 159, 0.1));
+	left: 0;
+	z-index: 1000;
+}
+.testimony{
+	position: relative;
+	height: 280px;
+	width: 300px;
+	background-color: white;
+	border-radius: 1rem;
+	padding: 1rem;
+	margin: 0.7rem;
+}
+.stars{
+	position: relative;
+	min-height: 20%;
+	max-height: 20%;
+}
+.testimonyContent{
+	position: relative;
+	min-height: 65%;
+	max-height:65% ;
+	font-weight: bold;
+	font-size: 1.125rem;
+	line-height: 1.25;
+	text-align: left;
+}
+.testimonyDetails{
+	position: relative;
+	min-height: 15%;
+	max-height: 15%;
+	display: flex;
+	justify-content: space-between;
+}
+.group{
+	margin: 0 auto;
+	display: flex;
+	margin-top: 35px;
+}
+.footer1{
+	width: 70vw;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.colonne{
+	width: 20vw;
+	border: 1px solid white;
+}
+.location{
+	font-size: 1.125rem;
+	padding-top: 25px;
+}
