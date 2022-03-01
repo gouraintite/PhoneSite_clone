@@ -13,6 +13,16 @@ html{
 	max-width: 100%;
 }
 
+.reduc{
+	background-color: rgb(255, 0, 110);
+	text-align: center;
+	align-items: center;
+	height: 80px;
+	font-size: 1.3rem;
+}
+.reduc p{
+	padding-top: 25px;
+}
 .allNav{
 	display: flex;
 	position: relative;
@@ -56,11 +66,20 @@ li{
 }
 .member{
 	background-color: #6054BA;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
 	margin-top: 10px;
 	height: 20px;
 	border-radius: 3rem;
+}
+.member > div{
+	display: flex;
+}
+.member > div p{
+	padding-left: 5px;
+	margin-top: 4px;
 }
 .welcome{
 	margin-top: 100px;
@@ -129,12 +148,61 @@ li{
 }
 
 .separator{
-	background-size: 100px 100px;
-	height: 95px;
-	width: 353px;
 	margin: 0 auto;
 	text-align: center;
-	margin-top: 100px;
-	background: url('img/separator-mobile.png') no-repeat;
-	border: 1px solid white;
+	margin-top: 230px;
+}
+.Title{
+	font-size: 160px;
+	line-height: 149px;
+	margin-top: 60px;
+	text-align: center;
+}
+.advantages{
+	position: relative;
+	justify-content: space-around;
+	width: 75vw;
+	margin-top: 20vh;
+	align-items: center;
+	margin-left: 17vw;
+}
+.advantagesElements, .ad{
+	display: flex;
+	margin-top: 15vh;
+}
+.advantagesElements img{
+	height: 392px;
+	width: 392px;
+	margin-right: 4vw;
+	margin-left: 8vw;
+	margin-top: 3vw;
+
+}
+.ad img{
+	height: 392px;
+	width: 392px;
+	margin-right: 1vw;
+	margin-top: 3vw;
+}
+.number{
+	font-size: 90px;
+	line-height: 109px;
+}
+.description{
+	font-size: 60px;
+	line-height: 62px;
+	padding-top: 30px;
+}
+.content{
+	font-weight: normal;
+	font-size: 29px;
+	line-height: 29px;
+	padding-top: 30px;
+}
+.avis{
+	text-align: center;
+}
+.avis span{
+	font-size: 36px;
+	line-height: 42px;
 }
